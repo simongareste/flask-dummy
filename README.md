@@ -14,7 +14,7 @@ A flask app to play with deployment
 ## Install
 
 * Clone the repository
-* Execute the hello.py file
+* Execute the wsgi.py file
 
 ## Configuration
 
