@@ -4,12 +4,15 @@ A flask app to play with deployment
 ## Features
 
 * Echoes "Hello World!" when you make an HTTP request to the server
+* Echoes somepassword and a sha512 encryption of somepassword when 
+  /password/somepassword is called
 
 ## Requirements
 
 * python 2.7
 * pip
 * flask module
+* passlib module
 
 ## Install
 
