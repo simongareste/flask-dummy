@@ -1,11 +1,11 @@
-# flask-dummy
-A flask app to play with deployment
+# flask-IT
+A flask app to get the password for Ansible
 
 ## Features
 
-* Echoes "Hello World!" when you make an HTTP request to the server
-* Echoes somepassword and a sha512 encryption of somepassword when 
-  /password/somepassword is called
+* Echoes <somepassword> and a sha512 encryption of <somepassword> when 
+  /somepassword is called. This is the main and only goal of this app.
+  And yes it could be easier to do this, but I wanted to try flask.
 
 ## Requirements
 
@@ -17,6 +17,7 @@ A flask app to play with deployment
 ## Install
 
 * Clone the repository
+* Install prerequisites, possibly with `pip install -r requirements.txt`
 * Execute the wsgi.py file
 
 ## Configuration
